@@ -3,6 +3,9 @@ name: "jupyter-notebook"
 description: "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook."
 ---
 
+# skill-config-values
+brand_name: Farmley
+brand_logo: ./assets/brand_logo.png
 
 # Jupyter Notebook Skill
 
