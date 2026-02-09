@@ -1,6 +1,21 @@
 interface:
-  display_name: "Jupyter Notebooks"
-  short_description: "Create Jupyter notebooks for experiments and tutorials"
-  icon_small: "./assets/jupyter-small.svg"
-  icon_large: "./assets/jupyter.png"
-  default_prompt: "Create a Jupyter notebook for this task with clear sections, runnable cells, and concise takeaways."
+  display_name: Jupyter Notebooks
+  short_description: Create Jupyter notebooks for experiments and tutorials
+  default_prompt: Create a Jupyter notebook for this task with clear sections, runnable cells, and concise takeaways.
+  tags:
+    - official
+
+remix:
+  brand_name:
+    type: string
+    label: Brand name
+    required: true
+    default: Farmley
+
+  brand_logo:
+    type: file
+    label: Brand logo
+    dest_path: assets/brand_logo.png
+    allowed_mime_types:
+      - image/png
+    max_bytes: 1048576
