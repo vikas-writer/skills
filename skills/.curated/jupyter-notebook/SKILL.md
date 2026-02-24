@@ -9,6 +9,11 @@ metadata:
     - doc
     - office
     - productivity
+    - cool
+    - DOD
+    - XSW
+    - QA
+    - YET
   icon_path: assets/icon.png
 ---
 
