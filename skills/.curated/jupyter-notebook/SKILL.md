@@ -8,6 +8,7 @@ metadata:
     - doc
     - office
     - productivity
+  icon_path: assets/icon.png
 ---
 
 ```yaml
